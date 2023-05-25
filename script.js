@@ -1,23 +1,22 @@
-const searchForm = document.getElementById('search-form');
-const searchInput = document.getElementById('search-input');
-const searchResults = document.querySelector('.search-results');
+document.addEventListener('DOMContentLoaded', function() {
+  const searchForm = document.getElementById('search-form');
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.querySelectorAll('.gallery .cards');
 
-searchForm.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent form submission
+  searchForm.addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio do formulário
 
-  const searchTerm = searchInput.value.toLowerCase();
+    const searchTerm = searchInput.value.toLowerCase();
 
-  Array.from(searchResults.children).forEach(function(result) {
-    const title = result.querySelector('h2').textContent.toLowerCase();
-    const description = result.querySelector('p').textContent.toLowerCase();
-    const image = result.querySelector('img');
+    searchResults.forEach(function(result) {
+      const artworkName = result.querySelector('.cards-name').textContent.toLowerCase();
 
-    if (title.includes(searchTerm) || description.includes(searchTerm)) {
-      result.style.display = 'block';
-      image.style.display = 'block';
-    } else {
-      result.style.display = 'none';
-      image.style.display = 'none';
-    }
+      if (artworkName.includes(searchTerm)) {
+        result.style.display = 'flex';
+      } else {
+        result.style.display = 'none';
+      }
+    });
   });
 });
+

@@ -1,18 +1,16 @@
-/*
-Hover to see the name
-*/
-
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alinha os elementos à esquerda */
 }
 
 .cards {
   position: relative;
   overflow: hidden;
   max-width: 250px;
+  margin-right: 20px; /* Espaçamento entre os resultados da pesquisa */
+  margin-bottom: 20px; /* Espaçamento entre as linhas de resultados */
+  padding: 10px;
 }
 
 .cards .cards-name {
@@ -36,7 +34,6 @@ Hover to see the name
   width: 100%;
   height: auto;
 }
-
 
 .content {
   flex: 1 0 auto;

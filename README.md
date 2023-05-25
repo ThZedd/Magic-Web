@@ -1,6 +1,6 @@
 # Magic
 
-Projeto realizado com o âmbito do melhoramento das tecnicas de desenvolvimento WEB. Realizado por (@guimbreon)[github.com/guimbreon] e (@ThZedd)[github.com/ThZedd]
+Projeto realizado com o âmbito do melhoramento das tecnicas de desenvolvimento WEB. Realizado por [@guimbreon](https://github.com/guimbreon) e [@ThZedd](https://github.com/ThZedd)
 
 ## Projeto
 
