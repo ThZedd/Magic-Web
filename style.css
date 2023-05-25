@@ -1,0 +1,43 @@
+/*
+Hover to see the name
+*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.cards {
+  position: relative;
+  overflow: hidden;
+  max-width: 250px;
+}
+
+.cards .cards-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cards:hover .cards-name {
+  opacity: 1;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+.content {
+  flex: 1 0 auto;
+}
