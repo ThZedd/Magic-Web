@@ -4,7 +4,7 @@ Projeto realizado com o âmbito do melhoramento das tecnicas de desenvolvimento 
 
 ## Projeto
 
-O site que estamos a desenvolver tem o propósito de ajudar as pessoas que sejam novas no jogo MTG(Magic the gathering) tenham uma melhor compreensão do mesmo.
+O site que estamos a desenvolver tem o propósito de ajudar as pessoas que sejam novas no jogo [MTG](https://magic.wizards.com/en) tenham uma melhor compreensão do mesmo.
 
 ## License
 
