@@ -1,10 +1,19 @@
 # Magic
 
-Projeto realizado com o âmbito do melhoramento das tecnicas de desenvolvimento WEB. Realizado por [@guimbreon](https://github.com/guimbreon) e [@ThZedd](https://github.com/ThZedd)
+Project carried out with the purpose of improving web development techniques.
+Conducted by [@guimbreon](https://github.com/guimbreon) $ [@ThZedd](https://github.com/ThZedd)
 
 ## Projeto
 
-O site que estamos a desenvolver tem o propósito de ajudar as pessoas que sejam novas no jogo [MTG](https://magic.wizards.com/en) tenham uma melhor compreensão do mesmo.
+We are devoloping this project to help people know more cards of the game [MTG](https://magic.wizards.com/en).
+
+## Contributions
+
+Contributions are welcome and encouraged. To submit a contribution, fork the repository, create a branch with your change, and submit a pull request. Main instructions:
+	
+	USE THE [TEMPLATE](Template.html) FOR THE CARDS PLEASE!
+	
+
 
 ## License
 
