@@ -54,6 +54,39 @@ Conteudo em si
 }
 
 
+/* barra de paginas dentro site */
+nav {
+  background-color: #660000;
+  padding: 0px;
+  box-shadow: 2px 1px 4px grey;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: -15px;
+  flex-shrink: 0;
+  min-width: 100px; /* Largura mínima do item */
+  width: 15%; /* Ajuste a porcentagem ou use 'vw' para largura responsiva */
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
 
 /* rodape */
 
