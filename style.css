@@ -1,16 +1,11 @@
-/*
-Cabeçalho
-*/
+/* Cabeçalho */
 header {
   background-color: #660000;
   color: white;
   text-align: center;
 }
 
-/*
-Conteudo em si
-*/
-
+/* Conteudo em si */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -21,7 +16,7 @@ Conteudo em si
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 350px; /* Add this line to set the maximum width */
+  max-width: 300px; /* Add this line to set the maximum width */
   margin-right: 20px; /* Espaçamento entre os resultados da pesquisa */
   margin-bottom: 20px; /* Espaçamento entre as linhas de resultados */
   padding: 10px;
