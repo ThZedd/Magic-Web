@@ -20,10 +20,12 @@ Conteudo em si
 .cards {
   position: relative;
   overflow: hidden;
-  max-width: 250px;
+  width: 100%;
+  max-width: 350px; /* Add this line to set the maximum width */
   margin-right: 20px; /* Espaçamento entre os resultados da pesquisa */
   margin-bottom: 20px; /* Espaçamento entre as linhas de resultados */
   padding: 10px;
+  box-sizing: border-box; /* Add this line to include padding within the maximum width */
 }
 
 .cards .cards-name {
@@ -43,16 +45,16 @@ Conteudo em si
   opacity: 1;
 }
 
-.gallery img {
+.cards img {
   width: 100%;
   height: auto;
+  object-fit: contain; /* Adjust this property based on your image requirements */
 }
 
 .content {
   flex: 1 0 auto;
-  padding:10px
+  padding: 10px;
 }
-
 
 /* barra de paginas dentro site */
 nav {
@@ -81,7 +83,6 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
-
 nav ul li a {
   color: white;
   text-decoration: none;
@@ -89,7 +90,6 @@ nav ul li a {
 }
 
 /* rodape */
-
 html, body {
   height: 100%;
   background-color: #1e0401;
@@ -104,6 +104,7 @@ body {
 .content {
   flex: 1 0 auto;
 }
+
 footer {
   background-color: #660000;
   color: white;
