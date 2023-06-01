@@ -107,23 +107,3 @@ footer {
   text-align: center;
   flex-shrink: 0;
 }
-
-
-#floating-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #333;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-}
-
-#floating-button span {
-  display: block;
-  transform: rotate(-90deg);
-}
